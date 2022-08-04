@@ -9,7 +9,11 @@ Restricción: Usar el operador de multiplicación
 lado_cuadrado = 5
 
 # COMPLETAR - INICIO
+<<<<<<< HEAD
 area_cuadrado=lado_cuadrado*lado_cuadrado
+=======
+area_cuadrado=lado_cuadrado * lado_cuadrado
+>>>>>>> 475b0ba470584438bb9c335ba1b78c07f34b14f0
 # COMPLETAR - FIN
 
 assert area_cuadrado == 25
@@ -22,7 +26,11 @@ Re-Escribir usando el operador de potencia.
 lado_cuadrado = 5
 
 # COMPLETAR - INICIO
+<<<<<<< HEAD
 area_cuadrado=lado_cuadrado**2
+=======
+area_cuadrado=lado_cuadrado ** 2
+>>>>>>> 475b0ba470584438bb9c335ba1b78c07f34b14f0
 # COMPLETAR - FIN
 
 assert area_cuadrado == 25
