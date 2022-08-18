@@ -103,7 +103,7 @@ diccionario_3 = {
 }
 
 # COMPLETAR - INICIO
-keys=diccionario_3.keys()
+keys=list(diccionario_3.keys())
 # COMPLETAR - FIN
 
 assert keys== ["clave1","clave2","clave3","clave4"]
@@ -121,7 +121,7 @@ diccionario_4 = {
 }
 
 # COMPLETAR - INICIO
-values=diccionario_4.values()
+values=list(diccionario_4.values())
 # COMPLETAR - FIN
 
 assert values == [1234, 4567, 8910, 1112]
@@ -140,7 +140,7 @@ diccionario_5 = {
 }
 
 # COMPLETAR - INICIO
-items=diccionario_5.items()
+items=list(diccionario_5.items())
 # COMPLETAR - FIN
 
 assert items == [(1, 1111), (2, 2222), (3, 3333), (4, 4444)]
@@ -165,7 +165,7 @@ diccionario_7 = {
 }
 
 # COMPLETAR - INICIO
-diccionario_6.update({5: 5555,6: 6666})
+diccionario_6.update(diccionario_7)
 # COMPLETAR - FIN
 
 assert diccionario_6 == {1: 1111, 2: 2223, 3: 3334, 4: 4444, 5: 5555, 6: 6666}
